@@ -5,17 +5,16 @@
  * author: Glaucia Lemos (@glaucia86)
  */
 
-import React from 'react';
-import ReactDom from 'react-dom';
-import './index.css';
+import React from "react";
+import ReactDom from "react-dom";
+import "./index.css";
+import "bootstrap/dist/css/bootstrap.css";
+import { Jumbotron } from "react-bootstrap";
+import { Fragment } from "react";
 
 class Quadrado extends React.Component {
   render() {
-    return (
-      <button className="square">
-        {/* TODO */}
-      </button>
-    );
+    return <button className="square">{/* TODO */}</button>;
   }
 }
 
@@ -25,10 +24,12 @@ class Tabuleiro extends React.Component {
   }
 
   render() {
-    const status = 'Próximo Jogador: X';
-
+    const status = "Próximo Jogador: X";
     return (
       <div>
+        <div>
+          
+        </div>
         <div className="status">{status}</div>
         <div className="board-row">
           {this.renderQuadrado(0)}
@@ -44,7 +45,7 @@ class Tabuleiro extends React.Component {
           {this.renderQuadrado(6)}
           {this.renderQuadrado(7)}
           {this.renderQuadrado(8)}
-        </div>       
+        </div>
       </div>
     );
   }
@@ -55,6 +56,28 @@ class Jogo extends React.Component {
     return (
       <div className="game">
         <div className="game-board">
+        <Jumbotron>
+        <h2 className="text-center">
+          <span
+            className="glyphicon glyphicon-thumbs-up"
+            aria-hidden="true"
+          ></span>{" "}
+          Aplicação Jogo da Velha - Live Coding
+        </h2>
+        <h3 className="text-center">Glaucia Lemos</h3>
+        <h4 className="text-center">Cloud Advocate 🥑 LATAM @ Microsoft</h4>
+        <h5 className="text-center">Rio de Janeiro, Brasil - 2019</h5>
+        <hr className="m-y-md" />
+        <p className="lead">
+          <a
+            className="btn btn-danger btn-lg"
+            href="https://www.youtube.com/user/l32759"
+            role="button"
+          >
+            Inscreva-se no Canal
+          </a>
+        </p>
+      </Jumbotron>
           <Tabuleiro />
         </div>
         <div className="game-info">
@@ -66,7 +89,4 @@ class Jogo extends React.Component {
   }
 }
 
-ReactDom.render(
-  <Jogo />,
-  document.getElementById('root')
-);
+ReactDom.render(<Jogo />, document.getElementById("root"));
