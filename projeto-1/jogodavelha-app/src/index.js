@@ -1,50 +1,72 @@
-body {
-  font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
+/**
+ * arquivo: src/index.js
+ * descrição:
+ * data: 19/11/2019
+ * author: Glaucia Lemos (@glaucia86)
+ */
+
+import React from 'react';
+import ReactDom from 'react-dom';
+import './index.css';
+
+class Quadrado extends React.Component {
+  render() {
+    return (
+      <button className="square">
+        {/* TODO */}
+      </button>
+    );
+  }
 }
 
-ol, ul {
-  padding-left: 30px;
+class Tabuleiro extends React.Component {
+  renderQuadrado(i) {
+    return <Quadrado />;
+  }
+
+  render() {
+    const status = 'Próximo Jogador: X';
+
+    return (
+      <div>
+        <div className="status">{status}</div>
+        <div className="board-row">
+          {this.renderQuadrado(0)}
+          {this.renderQuadrado(1)}
+          {this.renderQuadrado(2)}
+        </div>
+        <div className="board-row">
+          {this.renderQuadrado(3)}
+          {this.renderQuadrado(4)}
+          {this.renderQuadrado(5)}
+        </div>
+        <div className="board-row">
+          {this.renderQuadrado(6)}
+          {this.renderQuadrado(7)}
+          {this.renderQuadrado(8)}
+        </div>       
+      </div>
+    );
+  }
 }
 
-.board-row:after {
-  clear: both;
-  content: "";
-  display: table;
+class Jogo extends React.Component {
+  render() {
+    return (
+      <div className="game">
+        <div className="game-board">
+          <Tabuleiro />
+        </div>
+        <div className="game-info">
+          <div>{/* status */}</div>
+          <ol>{/* TODO */}</ol>
+        </div>
+      </div>
+    );
+  }
 }
 
-.status {
-  margin-bottom: 10px;
-}
-
-.square {
-  background: #fff;
-  border: 1px solid #999;
-  float: left;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 34px;
-  height: 34px;
-  margin-right: -1px;
-  margin-top: -1px;
-  padding: 0;
-  text-align: center;
-  width: 34px;
-}
-
-.square:focus {
-  outline: none;
-}
-
-.kbd-navigation .square:focus {
-  background: #ddd;
-}
-
-.game {
-  display: flex;
-  flex-direction: row;
-}
-
-.game-info {
-  margin-left: 20px;
-}
+ReactDom.render(
+  <Jogo />,
+  document.getElementById('root')
+);
