@@ -1,5 +1,7 @@
 # Resources & Links Importantes
 
+Aqui, segue todos os recursos e links citados como fonte de estudos para o aprendizado de React!
+
 ## Dia 1
 
 * **[Tutorial: Introdução ao React - Documentação React.js](https://pt-br.reactjs.org/tutorial/tutorial.html)**
@@ -7,3 +9,5 @@
 * **[React js Tutorial - Getting Started](https://www.dotnetcurry.com/reactjs/1353/react-js-tutorial)**
 * **[How to Learn React — A roadmap from beginner to advanced](https://www.freecodecamp.org/news/learning-react-roadmap-from-scratch-to-advanced-bff7735531b6/)**
 * **[User Guide - Create React App Generator](https://create-react-app.dev/)**
+
+## Dia 2
