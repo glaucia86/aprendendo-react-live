@@ -6,7 +6,7 @@ Repositório responsável pelo live coding realizado no canal **[Twitch.tv](http
 
 ## Recursos Utilizados 🚀
 
-* **[Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=aprendendoreact-github-gllemos)**
+* **[Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=javascript-0000-gllemos)**
 * **[Node.js](https://nodejs.org/en/)**
 * **[React](https://pt-br.reactjs.org/)**
 * **[Yarn](https://yarnpkg.com/lang/en/)**
@@ -24,11 +24,11 @@ Para começar a desenvolver no React, sem necessidade de criar uma configuraçã
 
 Mais informações sobre o **[Create React App Generator - AQUI](https://create-react-app.dev/docs/getting-started/)**
 
-E caso desejam aprender o passo a passo bastam acessar o link **[AQUI](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial?WT.mc_id=aprendendoreact-github-gllemos)**
+E caso desejam aprender o passo a passo bastam acessar o link **[AQUI](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial?WT.mc_id=javascript-0000-gllemos)**
 
 ## Links & Recursos Importantes
 
-* **[Usando React no Visual Studio Code](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial?WT.mc_id=aprendendoreact-github-gllemos)**
-* **[Criando Aplicação Node.js & React no Visual Studio Code](https://docs.microsoft.com/visualstudio/javascript/tutorial-nodejs-with-react-and-jsx?view=vs-2019&WT.mc_id=aprendendoreact-github-gllemos)**
-* **[Azure para desenvolvedores de JavaScript e Node.js](https://docs.microsoft.com/javascript/azure/?view=azure-node-latest&WT.mc_id=aprendendoreact-github-gllemos)**
-* **[Cursos Online Grátis - Microsoft Learn](https://docs.microsoft.com/learn/?WT.mc_id=aprendendoreact-github-gllemos)**
+* **[Usando React no Visual Studio Code](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial?WT.mc_id=javascript-0000-gllemos)**
+* **[Criando Aplicação Node.js & React no Visual Studio Code](https://docs.microsoft.com/visualstudio/javascript/tutorial-nodejs-with-react-and-jsx?view=vs-2019&WT.mc_id=javascript-0000-gllemos)**
+* **[Azure para desenvolvedores de JavaScript e Node.js](https://docs.microsoft.com/javascript/azure/?view=azure-node-latest&WT.mc_id=javascript-0000-gllemos)**
+* **[Cursos Online Grátis - Microsoft Learn](https://docs.microsoft.com/learn/?WT.mc_id=javascript-0000-gllemos)**
